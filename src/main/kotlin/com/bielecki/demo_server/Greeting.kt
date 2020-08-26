@@ -5,9 +5,7 @@ class Greeting(counter2: Int.Companion) {
     private var content: String? = null
 
     fun Greeting(id: Int) {
-    //fun Greeting(id: Int, content: String?) {
         this.id = id
-        //this.content = content
     }
 
     fun getId(): Int {
